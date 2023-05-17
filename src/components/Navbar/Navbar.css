@@ -1,0 +1,74 @@
+.left {
+  position: absolute;
+  width: 827.9px;
+  height: 46px;
+  left: 112px;
+  top: 221px;
+
+}
+
+.btn {
+  height: 46px;
+
+  position: absolute;
+
+  background: #F9F9F9;
+  border-radius: 30px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  color: #2C2C2C;
+
+}
+
+.btn1 {
+  width: 82px;
+  left: 77px;
+
+  background: #282828;
+  border-radius: 30px;
+
+  color: #FFFFFF;
+}
+
+.btn2 {
+  width: 112px;
+  left: 169px;
+}
+
+.btn3 {
+  width: 175px;
+  left: 291px;
+}
+
+.btn4 {
+  width: 97x;
+  left: 476px;
+}
+
+.btn5 {
+  width: 100px;
+  left: 546px;
+}
+
+.btn6 {
+  width: 125px;
+  left: 656px;
+}
+
+.right {
+  position: absolute;
+  width: 224px;
+  height: 19px;
+  left: 1003px;
+  top: 234px;
+}
+.category{
+  margin: 10px;
+}
