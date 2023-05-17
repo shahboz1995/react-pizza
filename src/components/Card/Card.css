@@ -1,0 +1,158 @@
+.allpizza{
+width: 166px;
+height: 39px;
+left: 200px;
+top: 299px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.01em;
+color: #000000;
+}
+.card {
+  width: 100%;
+  height: 80%;
+  margin-top: 135px;
+}
+.allPizza {
+  position: absolute;
+  width: 166px;
+  height: 39px;
+  left: 150px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.cardCantaner {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardItem {
+  width: 300px;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardImg {
+  width: 260px;
+  height: 260px;
+}
+.chizburger {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.pizzaSumma {
+  width: 280px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  left: 112px;
+  top: 690px;
+
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+.cardTonko {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tonko {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 131.88px;
+  height: 32px;
+  left: 117.73px;
+  top: 697px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+.tradi {
+  width: 131.88px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #2c2c2c;
+}
+.cardOt {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cardBtn {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 155px;
+  height: 40px;
+  left: 237px;
+  top: 792px;
+  background: #ffffff;
+  border: 1px solid #eb5a1e;
+  border-radius: 30px;
+  color: #eb5a1e;
+}
+.cardIcon {
+  width: 12px;
+  height: 12px;
+  left: calc(50% - 12px / 2 - 460px);
+  top: 806px;
+  color: #eb5a1e;
+  margin: 0 8px;
+}
+.santmetr{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cm{
+  width: 86.01px;
+height: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 117.73px;
+top: 736px;
+background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+border-radius: 5px;
+}
+.cm30{
+  width: 86.01px;
+height: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+left: 117.73px;
+top: 736px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+border-radius: 5px;
+}
