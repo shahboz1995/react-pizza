@@ -45,7 +45,7 @@ export const Card = () => {
           <div className="cardImg">
             <img src="/img/2.jpg" alt="pizza" />
           </div>
-          <p className="chizburger">Чизбургер-пицца</p>
+          <p className="chizburger">Сырная</p>
           <div className="pizzaSumma">
             <div className="cardTonko">
               <div className="tonko">тонкое</div>
@@ -61,7 +61,7 @@ export const Card = () => {
           </div>
           <div className="cardOt">
             <div>
-              <p>от 395 ₽</p>
+              <p>от 450 ₽</p>
             </div>
             <div>
               <button className="cardBtn">
@@ -75,7 +75,7 @@ export const Card = () => {
           <div className="cardImg">
             <img src="/img/3.jpg" alt="pizza" />
           </div>
-          <p className="chizburger">Чизбургер-пицца</p>
+          <p className="chizburger">Креветки по-азиатски</p>
           <div className="pizzaSumma">
             <div className="cardTonko">
               <div className="tonko">тонкое</div>
@@ -91,7 +91,7 @@ export const Card = () => {
           </div>
           <div className="cardOt">
             <div>
-              <p>от 395 ₽</p>
+              <p>от 290 ₽</p>
             </div>
             <div>
               <button className="cardBtn">
@@ -105,7 +105,7 @@ export const Card = () => {
           <div className="cardImg">
             <img src="/img/4.jpg" alt="pizza" />
           </div>
-          <p className="chizburger">Чизбургер-пицца</p>
+          <p className="chizburger">Сырный цыпленок</p>
           <div className="pizzaSumma">
             <div className="cardTonko">
               <div className="tonko">тонкое</div>
@@ -121,7 +121,7 @@ export const Card = () => {
           </div>
           <div className="cardOt">
             <div>
-              <p>от 395 ₽</p>
+              <p>от 385 ₽</p>
             </div>
             <div>
               <button className="cardBtn">
