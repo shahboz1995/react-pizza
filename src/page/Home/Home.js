@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Navbar, Wrapper } from '../../components/index'
+import { Card, Header, Navbar, Wrapper } from '../../components/index'
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Wrapper>
         <Header/>
         <Navbar/>
+        <Card/>
       </Wrapper>
     </div>
   )

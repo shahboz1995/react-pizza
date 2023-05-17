@@ -16,11 +16,11 @@ export const Header = () => {
 
           <div className='headerRight'>
               <p className='text3'>520 ₽</p>
-              <p>0</p>
-              <img className='line' src="/assets/headerLine.jpg" alt="line" />
+              <img className='line' src="/img/top.jpg" alt="line" />
               <p className='text4'>
                   <SlBasket/>
               </p>
+              {/* <p className='box'>0</p> */}
           </div>
       </div>
   )
