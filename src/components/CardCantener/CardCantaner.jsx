@@ -1,15 +1,17 @@
 import React from 'react'
-import { SlBasket } from 'react-icons/sl'
+import { Link } from 'react-router-dom'
 import './CardCantaner.css'
 export const CardCantaner = () => {
   return (
     <div className="cadrKarzinka">
       <div className="headerTop">
-        <div className="pizzaImga">
+      <Link to="/">
+        <div className="pizzaImga1">
           <img className="pizzaIcons" src="/img/pizza.png" alt="pizza img" />
           <p className="reactPizza">REACT PIZZA</p>
           <p className="samaya">самая вкусная пицца во вселенной</p>
         </div>
+        </Link>
         <div className="savatcha">
           <div className="cardSavat">
             <div className="cardSavatcha">
@@ -24,11 +26,12 @@ export const CardCantaner = () => {
             </div>
             <div className="cardSavatcha">
               <div className="basket">
-                <img
+              <Link to="/clear"><img
                   className="cardKarzi"
                   src="/img/karzinka.jpg"
                   alt="pizza img"
-                />
+                /></Link>
+              
                 <p className="cardK">Очистить корзину</p>
               </div>
             </div>
