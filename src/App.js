@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 
 import { Home } from './page/Home';
-import { CardCantaner } from "./components";
+import { CardCantaner, Clear } from "./components";
 
 import './App.css';
 
@@ -20,6 +20,10 @@ function App() {
      {
       path: "/cardCantaner",
       element: <CardCantaner/>     
+     },
+     {
+      path: "/clear",
+      element: <Clear/>     
      },
   ]);
   return <RouterProvider router={router}/>;

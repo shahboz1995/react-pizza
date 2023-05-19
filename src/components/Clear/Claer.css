@@ -1,0 +1,127 @@
+.claer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clearHaeder{
+  width: 95%;
+  height: 95%;
+  left: 55px;
+  top: 50px;  
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+.pizzaImga1{
+  cursor: pointer;
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #F7F7F7;;
+}
+.claerContener{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.userClear{
+  width: 60%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;  
+}
+.claerKarzinka{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.claerSmayil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.claerK{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.01em;
+color: #000000;
+
+}
+.smayil{
+width: 32px;
+height: 32px;
+margin-left: 10px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.01em;
+color: #000000;
+
+}
+.claerText{
+  width: 60%;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+font-weight: 400;
+align-items: center;
+text-align: center;
+color: #777777;
+margin-left: 160px;
+
+}
+.clarTaxt{
+  margin: 0;
+  margin-top: -60px;
+}
+.claerUser{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.user{
+  width: 266px;
+  height: 236px;
+}
+.btnClaer{
+  width: 210px;
+height: 46px;
+left: 615px;
+top: 821px;
+
+background: #282828;
+border-radius: 30px;
+}
+.orqaga{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #FFFFFF;
+margin: 0;
+}
+.claerBtn{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
