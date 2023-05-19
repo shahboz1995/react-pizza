@@ -1,0 +1,299 @@
+.headerTop{
+  width: 1250px;
+  height: 750px; 
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+
+}
+.pizzaImga{
+  width: 100%;
+  height: 15%;
+  border-bottom: 1px solid #F6F6F6;
+}
+.pizzaIcons {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 77px;
+  top: 70px;
+}
+.reactPizza{
+  position: absolute;
+  left: 130px;
+  top: 50px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 5px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #181818;
+}
+.samaya{
+  position: absolute;
+  width: 261px;
+  height: 19px;
+  left: 130px;
+  top: 70px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7B7B7B;
+}
+.savatcha{
+  width: 90%;
+  height: 70%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.cardSavat{
+  width: 70%;
+  height: 10%;
+  display: flex;
+  border-bottom: 1px solid #F4F4F4;
+  margin-bottom: 50px;
+}
+.cardSavatcha{
+  width: 50%;
+  height: 100%;
+}
+.basket{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cardBascet{
+  width: 29px;
+  height: 29px;
+  margin-right: 10px;
+}
+.karzinka{
+height: 39px;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+.cardKarzi{
+  bottom: 8.33%;  
+  border: 1.2px solid #B6B6B6;
+}
+.cardK{
+width: 142px;
+height: 21px;
+left: 1035px;
+top: 290px;
+
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #B6B6B6;
+
+}
+.pizzaSavat{
+width: 45%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pizzaSavat1{
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+}
+.cardKarzinka2{
+  display: flex;
+  flex-direction: column;
+}
+.plus{
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pizzaKarzinka{
+  margin: 0;
+  padding-left: 15px;
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.01em;
+color: #000000;
+
+}
+.karzinkaNamber{
+  
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.01em;
+color: #000000;
+
+}
+.testo{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.01em;
+margin: 0;
+color: #8D8D8D;
+}
+.cardMinus{
+  margin-top: 15px;
+}
+.minus{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #FE5F1E;
+  align-items: center;
+  text-align: center;
+}
+.karzinkaSumma{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.karzinaPizzaSumma{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.01em;
+color: #000000;
+}
+.karzinaX{
+width: 32px;
+height: 32px;
+left: 1139px;
+top: 399px;
+background: #FFFFFF;
+border: 2px solid #D7D7D7;
+border-radius: 50%;
+}
+.cardX{
+  margin-top: 11px;
+}
+.cardPlus{
+  margin-top: 11px;
+}
+.karzinaSummasi{
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.karzinaSummaK{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-bottom: 20px;
+
+}
+.hammaSumma{
+  width: 50%;
+  height: 100%;
+}
+.olinganPizza{
+  width: 50%;
+  height: 100%;
+}
+.box{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.01em;
+margin-right: 50px;
+color: #3b3939;
+}
+.box span{
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+
+}
+.olinganPizza{
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.01em;
+color: #000000;
+}
+.olinganPizza span{
+color: #FE5F1E;
+margin-right: 80px;
+}
+.karzinkaBtn{
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+height: 55px;
+background: #FFFFFF;
+border: 1px solid #D3D3D3;
+border-radius: 30px;
+color: #CACACA;
+}
+.belgi{
+  margin-right: 10px;
+}
+.oplati{
+  width: 211px;
+height: 55px;
+left: 960px;
+top: 844px;
+background: #FE5F1E;
+border-radius: 30px;
+color: #fff;
+border: 1px solid #FE5F1E;
+}
+.karzinaBtn{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  justify-content: space-between;
+}
+.karzinaOplata{
+  margin-left: 80px;
+}
