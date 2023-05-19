@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { SlBasket } from 'react-icons/sl'
 import './Haeder.css'
 
@@ -15,12 +16,12 @@ export const Header = () => {
           </div>
 
           <div className='headerRight'>
-              <p className='text3'>520 ₽</p>
+            <Link to="/cardCantaner" className='text3'>520 ₽</Link>
               <img className='line' src="/img/top.jpg" alt="line" />
               <p className='text4'>
                   <SlBasket/>
               </p>
-              {/* <p className='box'>0</p> */}
+              
           </div>
       </div>
   )

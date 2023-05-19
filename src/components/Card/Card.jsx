@@ -7,9 +7,10 @@ export const Card = () => {
   return (
 
     <div className="card">
-      <div>
+      <div >
         <h1 className='allpizza'>Все пиццы</h1>
       </div>
+
       <div className="cardCantaner">
         <div className="cardItem">
           <div className="cardImg">
