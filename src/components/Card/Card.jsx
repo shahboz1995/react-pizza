@@ -1,261 +1,29 @@
-import { BsPlus } from 'react-icons/bs'
+import { AiOutlinePlus } from 'react-icons/ai'
 import React from 'react'
 
 import './Card.css'
 
-export const Card = () => {
+const Card = ({item}) => {
+  const {id, title, price, imageUrl} = item;
+  // console.log(item);
+
+
   return (
+    
 
-    <div className="card">
-      <div >
-        <h1 className='allpizza'>Все пиццы</h1>
+    <div className='Card'>
+      <img className='pizzaImg' src={imageUrl} alt="pizza" />
+      <p className='pizzaName'>{title}</p>
+      <div className='pizzaType'>
+         <button className='pizzaBtn pizzaBtn1'>тонкое</button>
+         <button className='pizzaBtn pizzaBtn2'>традиционное</button>
+         <button className='pizzaBtn pizzaBtn3'>26 см.</button>
+         <button className='pizzaBtn pizzaBtn4'>30 см.</button>
+         <button className='pizzaBtn pizzaBtn5'>40 см.</button>
       </div>
-
-      <div className="cardCantaner">
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/1.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/2.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/3.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/4.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="cardCantaner">
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/5.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/6.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/7.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className="cardItem">
-          <div className="cardImg">
-            <img src="/img/8.jpg" alt="pizza" />
-          </div>
-          <p className="chizburger">Чизбургер-пицца</p>
-          <div className="pizzaSumma">
-            <div className="cardTonko">
-              <div className="tonko">тонкое</div>
-              <div className="tradi">
-                <p>традиционное</p>
-              </div>
-            </div>
-            <div className='santmetr'>
-              <div className='cm'>26 см.</div>
-              <div className='cm30'>30 см.</div>
-              <div className='cm30'>40 см.</div>
-            </div>
-          </div>
-          <div className="cardOt">
-            <div>
-              <p>от 395 ₽</p>
-            </div>
-            <div>
-              <button className="cardBtn">
-                <BsPlus className="cardIcon" /> Добавить{' '}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
+      <p className='pizzaPrice'>{price}</p>
+      <button className='btnAdd'><AiOutlinePlus size={12} className='btnPlus'/> Добавить 2</button>
     </div>
   )
 }
+export  default Card;

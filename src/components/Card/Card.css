@@ -1,53 +1,29 @@
-.allpizza{
-  width: 166px;
-  margin-left: 80px;
-top: 299px;
-font-family: 'Proxima Nova';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-letter-spacing: 0.01em;
-color: #000000;
-}
-.card {
-  width: 100%;
-  height: 80%;
-  margin-top: 135px;
-}
-.allPizza {
+.Card {
   position: absolute;
-  width: 166px;
-  height: 39px;
-  left: 150px;
+  width: 280px;
+  height: 459px;
+  left: -30px;
+  top: 193px;
+  position: relative;
+  padding: 15px;
+  padding-left: 100px;
+}
 
-  font-family: 'Proxima Nova';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-.cardCantaner {
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-}
-.cardItem {
-  width: 300px;
-  height: 470px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.cardImg {
-  width: 260px;
+.pizzaImg {
+  position: absolute;
+  width: 259px;
   height: 260px;
+  left: 77px;
+  top: 0px;
 }
-.chizburger {
+
+.pizzaName {
+  position: absolute;
+  width: 280px;
+  height: 24px;
+  left: 65px;
+  top: 254px;
+
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 800;
@@ -55,40 +31,23 @@ color: #000000;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.01em;
+
   color: #000000;
+
 }
-.pizzaSumma {
+
+.pizzaType {
+  position: absolute;
   width: 280px;
   height: 85px;
-  display: flex;
-  flex-direction: column;
-  left: 112px;
-  top: 690px;
+  left: 65px;
+  top: 310px;
 
-  background: #f3f3f3;
+  background: #F3F3F3;
   border-radius: 10px;
 }
-.cardTonko {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.tonko {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 131.88px;
-  height: 32px;
-  left: 117.73px;
-  top: 697px;
-  background: #ffffff;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-  border-radius: 5px;
-}
-.tradi {
-  width: 131.88px;
+
+.pizzaBtn {
   font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 700;
@@ -96,62 +55,126 @@ color: #000000;
   line-height: 17px;
   text-align: center;
   letter-spacing: 0.015em;
-  color: #2c2c2c;
+
+  color: #2C2C2C;
+
+  border: 0px solid #fff;
+
+  cursor: pointer;
+
 }
-.cardOt {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+
+.pizzaBtn:hover{
+  background-color: #949494;
+  color: #fff;
 }
-.cardBtn {
-  display: flex;
-  align-items: center;
+
+.pizzaBtn1 {
+  position: absolute;
+  width: 131px;
+  height: 32px;
+  left: 5px;
+  top: 7px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.pizzaBtn2 {
+  position: absolute;
+  width: 131px;
+  height: 32px;
+  left: 141px;
+  top: 7px;
+}
+
+.pizzaBtn3 {
+  position: absolute;
+  width: 86px;
+  height: 32px;
+  left: 5px;
+  top: 46px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.pizzaBtn4 {
+  position: absolute;
+  width: 86px;
+  height: 32px;
+  left: 96px;
+  top: 46px;
+}
+
+.pizzaBtn5 {
+  position: absolute;
+  width: 86px;
+  height: 32px;
+  left: 187px;
+  top: 46px;
+}
+
+.pizzaPrice {
+  position: absolute;
+  width: 89px;
+  height: 27px;
+  left: 67px;
+  top: 400px;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
+
+.btnAdd {
   box-sizing: border-box;
+
+  position: absolute;
   width: 155px;
   height: 40px;
-  left: 237px;
-  top: 792px;
-  background: #ffffff;
-  border: 1px solid #eb5a1e;
+  left: 192px;
+  top: 413px;
+
+  background: #FFFFFF;
+  border: 1px solid #EB5A1E;
   border-radius: 30px;
-  color: #eb5a1e;
+
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #EB5A1E;
+  cursor: pointer;
 }
-.cardIcon {
-  width: 12px;
-  height: 12px;
-  left: calc(50% - 12px / 2 - 460px);
-  top: 806px;
-  color: #eb5a1e;
-  margin: 0 8px;
+
+.btnAdd:hover{
+  background-color:#EB5A1E;
+  color: #fff;
 }
-.santmetr{
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: space-evenly;
+
+.btnPlus {
+  position: absolute;
+  /* width: 12px;
+  height: 12px; */
+  left: 17px;
+  top: 14px;
+  color: #EB5A1E;
+  /* background-color: #fff; */
+  /* background-color:#fff; */
 }
-.cm{
-  width: 86.01px;
-height: 32px;
-display: flex;
-justify-content: center;
-align-items: center;
-left: 117.73px;
-top: 736px;
-background: #FFFFFF;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-border-radius: 5px;
-}
-.cm30{
-  width: 86.01px;
-height: 32px;
-display: flex;
-justify-content: center;
-align-items: center;
-left: 117.73px;
-top: 736px;
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-border-radius: 5px;
+.btnPlus:hover{
+  background-color:#EB5A1E;
+  color: #EB5A1E;
 }

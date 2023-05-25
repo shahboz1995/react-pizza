@@ -4,7 +4,8 @@ import {
 } from "react-router-dom";
 
 import { Home } from './page/Home';
-import { CardCantaner, Clear } from "./components";
+import CardCantaner from './components/CardCantener/CardCantaner'
+import { Clear } from "./components";
 
 import './App.css';
 
